@@ -17,18 +17,16 @@ I am writing this blog to record my life
 
 Just like:
 
-     1/ Love
+     : Love
      
-     2/ friendship
+     : friendship
      
-     3/ the people I meet (Important for me)
+     : the people I meet (Important for me)
      
-     4/ tech
+     : tech
      
-     5/ choice
-     
-     6/ change 
-     
+     : choice
+         
 
 ## Main
 
