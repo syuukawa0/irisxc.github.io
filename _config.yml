@@ -93,6 +93,7 @@ service-worker: true
 
 # Friends
 friends: [
+    {
         title: "简书",
         href: "http://www.jianshu.com/u/371e51866361"
     }
