@@ -14,13 +14,64 @@ tags:
 ## Foreword
 	 Some software or plug-in should be install 
 	 
-	 ruby version >= 2.0
-	 
-	 bundler
-	 
-	 jekyll
+		 ruby version >= 2.0
+		 
+		 bundler
+		 
+		 jekyll
 
 ## Main
+Reference
+	https://www.cnblogs.com/huochaihe/p/7575012.html
+	https://segmentfault.com/a/1190000007243257
+	http://blog.csdn.net/daxiangqqcom/article/details/78329496?locationNum=8&fps=1
+
+1:::Ruby Install
+
+Install Dependencies
+
+	yum -y groupinstall "Development Tools"
+	
+	yum -y install gdbm-devel libdb4-devel libffi-devel libyaml libyaml-devel ncurses-devel openssl-devel readline-devel tcl-devel
+
+Download and Build Ruby from Source
+
+	mkdir -p rpmbuild/{BUILD,BUILDROOT,RPMS,SOURCES,SPECS,SRPMS}
+
+	wget http://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.3.tar.gz -P rpmbuild/SOURCES
+
+	wget https://raw.githubusercontent.com/tjinjin/automate-ruby-rpm/master/ruby22x.spec -P rpmbuild/SPECS
+
+	rpmbuild -bb rpmbuild/SPECS/ruby22x.spec
+
+	yum -y localinstall rpmbuild/RPMS/x86_64/ruby-2.2.3-1.el7.centos.x86_64.rpm
+
+Test the Install
+	ruby -v
+	gem -v
+
+Error11111
+ centos7 redis requires Ruby version >= 2.2.2	 	
+
+2:::Ruby Change Version
+	centos7 redis requires Ruby version >= 2.2.2
+	http://blog.csdn.net/daxiangqqcom/article/details/78329496?locationNum=8&fps=1	
+
+
+Error22222
+	[root@192 myblog]# jekyll serve
+	/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/site_ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require': cannot load such file -- bundler (LoadError)
+		from /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/site_ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+		from /usr/local/rvm/gems/ruby-2.3.4/gems/jekyll-3.6.2/lib/jekyll/plugin_manager.rb:48:in `require_from_bundler'
+		from /usr/local/rvm/gems/ruby-2.3.4/gems/jekyll-3.6.2/exe/jekyll:11:in `<top (required)>'
+		from /usr/local/rvm/gems/ruby-2.3.4/bin/jekyll:23:in `load'
+		from /usr/local/rvm/gems/ruby-2.3.4/bin/jekyll:23:in `<main>'
+		from /usr/local/rvm/gems/ruby-2.3.4/bin/ruby_executable_hooks:15:in `eval'
+		from /usr/local/rvm/gems/ruby-2.3.4/bin/ruby_executable_hooks:15:in `<main>'
+
+3:::install bundler
+		https://segmentfault.com/a/1190000007243257
+		Jekyll搭建个人博客
 
 	Success
 	[root@192 myblog]# jekyll serve
