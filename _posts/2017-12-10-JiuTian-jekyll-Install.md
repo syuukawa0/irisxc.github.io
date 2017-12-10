@@ -21,12 +21,15 @@ tags:
 		 jekyll
 
 ## Main
+
 Reference
 	https://www.cnblogs.com/huochaihe/p/7575012.html
+	
 	https://segmentfault.com/a/1190000007243257
+	
 	http://blog.csdn.net/daxiangqqcom/article/details/78329496?locationNum=8&fps=1
 
-1:::Ruby Install
+Ruby Install
 
 Install Dependencies
 
@@ -47,29 +50,40 @@ Download and Build Ruby from Source
 	yum -y localinstall rpmbuild/RPMS/x86_64/ruby-2.2.3-1.el7.centos.x86_64.rpm
 
 Test the Install
+
 	ruby -v
+
 	gem -v
 
-Error11111
+Error
  centos7 redis requires Ruby version >= 2.2.2	 	
 
-2:::Ruby Change Version
+2.Ruby Change Version
 	centos7 redis requires Ruby version >= 2.2.2
+	
 	http://blog.csdn.net/daxiangqqcom/article/details/78329496?locationNum=8&fps=1	
 
 
 Error22222
 	[root@192 myblog]# jekyll serve
+	
 	/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/site_ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require': cannot load such file -- bundler (LoadError)
+
 		from /usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/site_ruby/2.3.0/rubygems/core_ext/kernel_require.rb:55:in `require'
+
 		from /usr/local/rvm/gems/ruby-2.3.4/gems/jekyll-3.6.2/lib/jekyll/plugin_manager.rb:48:in `require_from_bundler'
+
 		from /usr/local/rvm/gems/ruby-2.3.4/gems/jekyll-3.6.2/exe/jekyll:11:in `<top (required)>'
+
 		from /usr/local/rvm/gems/ruby-2.3.4/bin/jekyll:23:in `load'
+
 		from /usr/local/rvm/gems/ruby-2.3.4/bin/jekyll:23:in `<main>'
+
 		from /usr/local/rvm/gems/ruby-2.3.4/bin/ruby_executable_hooks:15:in `eval'
+
 		from /usr/local/rvm/gems/ruby-2.3.4/bin/ruby_executable_hooks:15:in `<main>'
 
-3:::install bundler
+3.nstall bundler
 		https://segmentfault.com/a/1190000007243257
 		Jekyll搭建个人博客
 
