@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      JiuTian博客测试第一章title
-subtitle:   JiuTian博客测试第一章Subtitle
+title:      It is starting ...
+subtitle:   Why I will write the blog ...
 date:       2017-12-10
 author:     BY syuukawa
 header-img: img/post-bg-hacker.jpg
