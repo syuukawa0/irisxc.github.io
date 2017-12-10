@@ -7,8 +7,7 @@ author:     BY syuukawa
 header-img: img/post-bg-hacker.jpg
 catalog: true
 tags:
-    - Test
-    - Test001
+    - Target
 ---
 
 
