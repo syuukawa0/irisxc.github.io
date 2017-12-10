@@ -2,8 +2,8 @@
 layout:     post
 title:      It is starting ...
 subtitle:   Why I will write the blog ...
-date:       2017-12-10
-author:     BY syuukawa
+date:       2017-12-09
+author:     BY Locusts
 header-img: img/post-bg-hacker.jpg
 catalog: true
 tags:
@@ -17,15 +17,15 @@ I am writing this blog to record my life
 
 Just like:
 
-     : Love
+     Love
      
-     : friendship
+     friendship
      
-     : the people I meet (Important for me)
+     the people I meet (Important for me)
      
-     : tech
+     tech
      
-     : choice
+     choice
          
 
 ## Main

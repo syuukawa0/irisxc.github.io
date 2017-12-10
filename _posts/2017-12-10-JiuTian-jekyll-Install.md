@@ -3,7 +3,7 @@ layout:     post
 title:      Jekyll Install
 subtitle:   Using jekyll to make a blog
 date:       2017-12-10
-author:     BY syuukawa
+author:     BY Locusts
 header-img: img/post-bg-hacker.jpg
 catalog: true
 tags:

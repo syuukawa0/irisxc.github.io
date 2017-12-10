@@ -1,10 +1,10 @@
 # Site settings
-title: JiuTian
-SEOTitle: 九天的博客 | JiuTian Blog
+title: Locusts
+SEOTitle: 九天的博客 | Locusts Blog
 header-img: img/post-bg-desk.jpg
 email: syuukawa@sina.cn
 description: "If You Want It,Work For It."
-keyword: "JiuTian, JiuTian Blog, JiuTian, syuukawa, JiuTian"
+keyword: "Locusts, Locusts Blog, JiuTian, syuukawa, JiuTian"
 url: "http://syuukawa.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/syuukawa/syuukawa.github.io.git" # you code repository
