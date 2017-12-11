@@ -12,13 +12,11 @@ tags:
 
 
 ## Foreword
-
 	- **Parents**
 	- **Friends**
   - **Co-Worker**
 
 ## Main
-
 	- I am writing this blog to record my life
 	- Just like
 	     - Emotion
