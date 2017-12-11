@@ -13,9 +13,9 @@ tags:
 
 ## Foreword
 	
-- Parents
-- Friends
-- Co-Worker
+- **Parents**
+- **Friends**
+- **Co-Worker**
 
 ## Main
 
