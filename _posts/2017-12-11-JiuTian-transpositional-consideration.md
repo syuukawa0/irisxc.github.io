@@ -12,18 +12,20 @@ tags:
 
 
 ## Foreword
-	- **Parents**
-	- **Friends**
-  - **Co-Worker**
+	
+- Parents
+- Friends
+- Co-Worker
 
 ## Main
-	- I am writing this blog to record my life
-	- Just like
-	     - Emotion
-	     - friendship
-	     - the people I meet (Important for me)
-	     - choice
-	     - tech
+
+- I am writing this blog to record my life
+- Just like
+    - Emotion
+    - friendship
+    - the people I meet (Important for me)
+    - choice
+	  - tech
   
   
 ## Epilogue
