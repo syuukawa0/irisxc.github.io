@@ -14,11 +14,11 @@ tags:
 ## Foreword
 	 Some software or plug-in should be install 
 	 
-		 ruby version >= 2.0
+		 * ruby version >= 2.0
 		 
-		 bundler
+		 * bundler
 		 
-		 jekyll
+		 * jekyll
 
 ## Main
 
