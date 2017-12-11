@@ -1,7 +1,7 @@
 # Site settings
 title: Locusts
 SEOTitle: 九天的博客 | Locusts Blog
-pages: HOME0,ABOUT ME0,TAGS0
+pages: HOME0
 header-img: img/post-bg-desk.jpg
 email: syuukawa@sina.cn
 description: "Main"
