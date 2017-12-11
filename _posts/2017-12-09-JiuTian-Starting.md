@@ -3,7 +3,7 @@ layout:     post
 title:      It is starting ...
 subtitle:   Why I will write the blog ...
 date:       2017-12-09
-author:     BY Locusts
+author:     Locusts
 header-img: img/post-bg-hacker.jpg
 catalog: true
 tags:
