@@ -13,10 +13,8 @@ tags:
 
 ## Foreword
 
-I am writing this blog to record my life
-
-Just like:
-
+- I am writing this blog to record my life
+- Just like
      - Emotion
      - friendship
      - the people I meet (Important for me)
