@@ -18,8 +18,7 @@ body { background: #eee; }
 
 <!-- hack iOS CSS :active style -->
 <body ontouchstart="">
-		
-		<div id="snowFlow" >
+
 			
     {% include nav.html %}
 
@@ -32,6 +31,7 @@ body { background: #eee; }
 <img src="/img/apple-touch-icon.png" width="0" height="0" />
 <!-- Migrate from head to bottom, no longer block render and still work -->
 
+<div id="snowFlow" >
 </body>
 <script>
 	window.onload=function(){
@@ -54,7 +54,7 @@ body { background: #eee; }
 			setInterval(function(){
 				var left=Math.random()*window.innerWidth;
 				var height=Math.random()*window.innerHeight;
-				var src = 'snow.png';
+				var src = 'https://github.com/syuukawa0/syuukawa0.github.io/tree/master/snow/snow.png';
 				snowFlow(left,height,src);
 			},500)
 			
