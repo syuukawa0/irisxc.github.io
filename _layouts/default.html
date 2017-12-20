@@ -18,35 +18,6 @@
 <img src="/img/apple-touch-icon.png" width="0" height="0" />
 <!-- Migrate from head to bottom, no longer block render and still work -->
 
-<div id="snowFlow" >
 </body>
 
-<script>
-	window.onload=function(){
-		// snowFlow();
-		function snowFlow(left,height,src){
-			var container=document.createElement('div');
-			var pic=document.createElement('img');
-			var snowFlow=document.getElementById('snowFlow');
-			pic.className='pic';
-			container.className='container';	
-			snowFlow.appendChild(container);
-			container.appendChild(pic);
-			container.style.left=left+'px';
-			container.style.height=height+'px';
-			pic.src=src;
-			setTimeout(function(){
-				snowFlow.removeChild(container);
-			},5000);
-		}
-			setInterval(function(){
-				var left=Math.random()*window.innerWidth;
-				var height=Math.random()*window.innerHeight;
-				var src = 'snow.png';
-				snowFlow(left,height,src);
-			},500)
-			
-		}
-	
-</script>
 </html>
